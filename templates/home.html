@@ -1,0 +1,18 @@
+<html>
+<head>
+    <title>Spam Detector App</title>
+</head>
+<body>
+<h1>Spam Detector</h1>
+<br>
+<form action="\predict" method="post">
+    <input type="text" placeholder="Enter Text" name="text_msg">
+    <input type="submit" value="Submit" class="btn btn-secondary">
+</form>
+<br>
+        <br>
+        <h3>{{ prediction_text }}</h3>
+        <br>
+        <br>
+</body>
+</html>
